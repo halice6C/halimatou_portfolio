@@ -1,0 +1,35 @@
+@import './colors';
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $background-color;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color:$dark-text
+    }
+  
+    .nav {
+        padding: 1.5%;
+      a {
+        margin: 0 8px;
+        text-decoration: none;
+        color: black;
+        &:hover {
+          color: blue;
+        }
+      }
+    }
+  }
+
+  .logo{
+    padding-left: 3%;
+  }
+  
