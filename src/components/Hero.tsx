@@ -2,11 +2,8 @@ import { useTranslation } from 'react-i18next';
 import '../styles/hero.scss';
 
 const Hero = () => {
-    const { t, i18n } = useTranslation();
 
-    const changeLanguage = (lng:any) => {
-      i18n.changeLanguage(lng);
-    };
+
   return (
     <section className="hero" id="home">
       <div className="hero-content">
