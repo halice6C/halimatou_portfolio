@@ -46,9 +46,7 @@
         border-radius: 5px;
         transition: 0.3s ease;
 
-        &:hover {
-          background-color: darken($primary-color, 10%);
-        }
+       
 
         &.secondary {
           background-color: transparent;
