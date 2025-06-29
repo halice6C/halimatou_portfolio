@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+  section {
+    scroll-margin-top: 80px; /* ajuste selon la hauteur de ton Header */
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+    
