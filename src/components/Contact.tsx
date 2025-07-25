@@ -1,5 +1,7 @@
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import "../styles/contact.scss";
+
 
 export default function ContactForm() {
   const form = useRef<HTMLFormElement>(null);
@@ -26,13 +28,14 @@ export default function ContactForm() {
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-4 max-w-md mx-auto">
-      <input type="text" name="name" placeholder="Votre nom" required className="border p-2" />
-      <input type="email" name="email" placeholder="Votre email" required className="border p-2" />
-      <textarea name="message" placeholder="Votre message" required rows={5} className="border p-2" />
-      <button type="submit" className="bg-blue-600 text-white py-2 rounded hover:bg-blue-700">
-        Envoyer
-      </button>
-    </form>
+<form ref={form} onSubmit={sendEmail} className="contact-form">
+  <h2>Contactez-moi</h2>
+
+  <input type="text" name="name" placeholder="Votre nom" required />
+  <input type="email" name="email" placeholder="Votre email" required />
+  <textarea name="message" placeholder="Votre message" required rows={5} />
+
+  <button className = "contact-btn" type="submit">Envoyer</button>
+</form>
   );
 }

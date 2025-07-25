@@ -1,0 +1,57 @@
+$bg-soft: #eaf7f9;
+$card-bg: #ffffff;
+$card-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+$card-border-radius: 12px;
+
+.experience-card { 
+  background-color: $card-bg;
+  box-shadow: $card-shadow;
+  border-radius: $card-border-radius;
+  padding: 2rem;
+  max-width: 800px;
+  width: 100%;
+  margin: 2rem auto;
+
+  .logo-container {
+    flex-shrink: 0;
+    img {
+      width: 160px;
+      height: 160px;
+      object-fit: contain;
+    }
+  }
+
+  .content {
+    flex: 1;
+
+    h3 {
+      margin: 0;
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+
+    .meta {
+      font-size: 0.9rem;
+      color: #555;
+
+      .role {
+        font-weight: 600;
+      }
+    }
+
+    .missions {
+      margin: 0.5rem 0;
+      padding-left: 1.2rem;
+      li {
+        margin-bottom: 0.25rem;
+        font-size: 0.95rem;
+      }
+    }
+
+    .stack {
+      font-style: italic;
+      font-size: 0.85rem;
+      color: #333;
+    }
+  }
+}

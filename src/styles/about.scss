@@ -1,0 +1,63 @@
+@import '../styles/colors';
+
+.about {
+  background-color: #c2ecec;
+  padding: 4rem 2rem;
+  display: flex;
+  justify-content: center;
+
+  .about-card {
+    max-width: 400px;
+    background: white;
+    border-radius: 16px;
+    padding: 2rem;
+    text-align: center;
+   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+
+  }
+
+  .profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
+
+  .subtitle {
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+
+  .description {
+    font-size: 0.95rem;
+    color: #444;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+  }
+
+  .contact-btn {
+    background-color: #8fe8dd;;;
+    color: #000;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+  }
+}
+
+.location{
+  font-weight: bold; 
+}
+
+.scroll-down {
+  animation: bounce 1.5s infinite;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(8px); }
+}
