@@ -1,5 +1,4 @@
-import { FaReact, FaNodeJs, FaPython } from 'react-icons/fa';
-import { SiFlutter, SiTypescript } from 'react-icons/si';
+
 import "../styles/skills.scss"
 
 export const Skills = ()=>{

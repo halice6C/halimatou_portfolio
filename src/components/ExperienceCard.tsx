@@ -13,7 +13,7 @@ interface ExperienceCardProps {
 }
 
 
-const ExperienceCard : React.FC<ExperienceCardProps>= ({ logo, company, period, role, missions, stack, bgColor = 'blue-1'}) => {
+const ExperienceCard : React.FC<ExperienceCardProps>= ({  company, period, role, missions, stack, bgColor = 'blue-1'}) => {
   return (
     <div className={`experience-card ${bgColor}`}>
  
