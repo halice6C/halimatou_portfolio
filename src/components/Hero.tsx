@@ -26,10 +26,10 @@ const Hero = () => {
                 deleteSpeed={50}
                 delaySpeed={1000}
               /></h2>
-        <p>J'avance avec rigueur, honnêteté et passion, parce que je crois qu'on ne code pas seulement avec des compétences, mais avec des valeurs.</p>
+        <p>Je travaille avec rigueur, honnêteté et passion, parce que je crois qu'on ne code pas seulement avec des compétences, mais avec des valeurs.</p>
         <div className="hero-buttons">
           <a href="#projects" className="btn">Voir mes projets</a>
-          <a href="/halimatou_portfolio/Halimatou_Cisse_CV.pdf" target="_blank" rel="noopener noreferrer" className="btn secondary">Télécharger mon CV</a>
+          <a href="/Halimatou_Cisse_CV.pdf" target="_blank" rel="noopener noreferrer" className="btn secondary">Télécharger mon CV</a>
         </div>
       </div>
     </section>
