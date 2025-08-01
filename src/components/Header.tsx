@@ -1,10 +1,16 @@
 import '../styles/header.scss';
 import { AiFillHome } from 'react-icons/ai';
+import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
+
 import { FaUser, FaLaptopCode, FaTools, FaBriefcase } from 'react-icons/fa';
 import { FiMail } from 'react-icons/fi';
 import { Typewriter } from 'react-simple-typewriter';
 import { NavLink } from 'react-router-dom';
+import { useState } from 'react';
 const Header = () => {
+    const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => setMenuOpen(!menuOpen);
     return (
       <header className="header">
         <div className="logo">
@@ -17,14 +23,17 @@ const Header = () => {
         deleteSpeed={50}
         delaySpeed={1000}
       />
+          <div className="burger-icon" onClick={toggleMenu}>
+        {menuOpen ? <AiOutlineClose /> : <AiOutlineMenu />}
+      </div>
         </div>
-        <nav className="nav">
-          <NavLink to="/" ><AiFillHome /></NavLink>
-          <NavLink to="/about"><FaUser/></NavLink>
-          <NavLink to="/projects"><FaLaptopCode/></NavLink>
-          <NavLink to="/skills"><FaTools/></NavLink>
-          <NavLink to="/experience"><FaBriefcase/></NavLink>
-          <NavLink to="/contact"><FiMail/></NavLink>
+        <nav className={`nav ${menuOpen ? 'open' : ''}`}>
+          <NavLink to="/" onClick={toggleMenu} ><AiFillHome /></NavLink>
+          <NavLink to="/about" onClick={toggleMenu}><FaUser/></NavLink>
+          <NavLink to="/projects" onClick={toggleMenu}><FaLaptopCode/></NavLink>
+          <NavLink to="/skills" onClick={toggleMenu}><FaTools/></NavLink>
+          <NavLink to="/experience" onClick={toggleMenu}><FaBriefcase/></NavLink>
+          <NavLink to="/contact" onClick={toggleMenu}><FiMail/></NavLink>
         </nav>
       </header>
     );
