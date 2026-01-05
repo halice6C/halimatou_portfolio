@@ -9,8 +9,11 @@ const Header = () => {
       <header className="header">
         <div className="logo">
            <Typewriter
-        words={['Halimatou - Développeuse Front-End', 'Halimatou - Développeuse Back-End', 'Halimatou - Développeuse Full Stack']}
-        loop={400000}
+ words={[
+  'Halimatou – Ingénieure et experte informatique',
+  'Halimatou – Projets applicatifs & plateformes',
+  'Halimatou – Développement, DevOps & SI'
+]}        loop={400000}
         cursor
         cursorStyle="|"
         typeSpeed={70}

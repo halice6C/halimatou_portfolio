@@ -7,15 +7,15 @@ export const Skills = ()=>{
   <h2>Compétences techniques</h2>
   <div className="skills-grid">
     <div>
-      <h3>Développement</h3>
+      <h3>Développement Applicatif</h3>
       <p>
-        Vue.js, React.js, React Native, Node.js, Flutter, TypeScript, JavaScript, Java, Python, C, C++, C#, .NET, HTML, CSS, Android, Kotlin, JEE, Laravel, PHP, SASS, Vite, Vuetify, Bootstrap, Swift, Firebase, Supabase
+      JavaScript / TypeScript, Python,Node.js-Express, Vue.js, React, HTML, CSS
       </p>
     </div>
 
     <div>
-      <h3>Outils de développement</h3>
-      <p>VS Code, IntelliJ IDEA</p>
+      <h3>Plateformes & DevOps</h3>
+      <p>Docker, Gitlab CI/CD, Environnements Linux, Terraform, Cloud-AWS (Certification en cours)</p>
     </div>
 
     <div>
@@ -24,23 +24,18 @@ export const Skills = ()=>{
     </div>
 
     <div>
-      <h3>UI / UX Design</h3>
-      <p>Figma, Adobe XD, Miro</p>
+      <h3>Données et API</h3>
+      <p>APIs REST, Bases de données relationnelles : PostgreSQL, MySQL, SQLite, Bases NoSQL : MongoDB</p>
     </div>
 
     <div>
-      <h3>DevOps</h3>
-      <p>AWS, Docker, GitLab CI/CD, Terraform</p>
+      <h3>Outils & collaboration</h3>
+      <p>Git (GitHub, GitLab), VS Code, IntelliJ IDEA, Trello</p>
     </div>
 
     <div>
-      <h3>Gestion de projet</h3>
-      <p>Trello</p>
-    </div>
-
-    <div>
-      <h3>APIs</h3>
-      <p>REST, XML</p>
+      <h3>UX / conception (support)</h3>
+      <p>Figma, Canva, Miro, UML, Merise</p>
     </div>
 
     <div>

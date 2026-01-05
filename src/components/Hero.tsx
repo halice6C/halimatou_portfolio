@@ -18,7 +18,7 @@ const Hero = () => {
                 delaySpeed={1000}
               /></span></h1>
         <h2><Typewriter
-                words={['Développeuse full stack']}
+                words={['Ingénieure informatique ']}
                 loop={400000}
                 cursor
                 cursorStyle="|"
@@ -26,7 +26,7 @@ const Hero = () => {
                 deleteSpeed={50}
                 delaySpeed={1000}
               /></h2>
-        <p>Je travaille avec rigueur, honnêteté et passion, parce que je crois qu'on ne code pas seulement avec des compétences, mais avec des valeurs.</p>
+        <p>Je conçois des solutions numériques fiables et utiles, avec une approche rigoureuse, orientée qualité et sens du service.</p>
         <div className="hero-buttons">
           <a href="#projects" className="btn">Voir mes projets</a>
           <a href="/Halimatou_Cisse_CV.pdf" target="_blank" rel="noopener noreferrer" className="btn secondary">Télécharger mon CV</a>

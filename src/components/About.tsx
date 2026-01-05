@@ -6,15 +6,17 @@ const About = () => {
   return (
 <section id="about" className="about">
   <div className="about-card">
-    <img src="/hali-photo.png" alt="Hali-Photo" className="profile-pic" loading="lazy"/>
-
     <h2>Halimatou CISSE</h2>
-    <p className="subtitle">Développeuse Full Stack</p>
+    <p className="subtitle">Ingénieure informatique – Développement, DevOps & projets applicatifs</p>
 
 <p className="description">
-  Passionnée par l'informatique en général, j’ai travaillé sur des projets web et mobile dans les domaines de l’e-santé, de l’e-commerce et des énergies renouvelables.
-  Rigoureuse, autonome et axée sur l’expérience utilisateur, je recherche un poste de développeuse Full Stack en CDI ou CDD au sein d’une équipe agile et ambitieuse.
-  <br /><br />
+Ingénieure informatique (doublement diplômée – ingénieure & experte), j’interviens sur des projets numériques mêlant développement, automatisation et gestion applicative.
+J’ai travaillé sur des solutions web et métiers dans des contextes variés (e-santé, e-commerce, énergie), avec une approche pragmatique orientée qualité de service, fiabilité et besoins utilisateurs.
+
+Aujourd’hui, je recherche un poste me permettant de continuer à évoluer sur des projets concrets, à l’interface entre technique, applicatif et utilisateurs.
+
+<br /><br />
+
   📍<span className="location"> Basée à Paris, mais mobile et disponible partout en France.</span>
 </p>
 

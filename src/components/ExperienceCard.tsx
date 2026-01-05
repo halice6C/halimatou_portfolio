@@ -27,7 +27,7 @@ const ExperienceCard : React.FC<ExperienceCardProps>= ({  company, period, role,
             <li key={index}>{item}</li>
           ))}
         </ul>
-        <p className="stack">Stack : {stack.join(", ")}</p>
+        <p className="stack">Expérience : {stack.join(", ")}</p>
       </div>
     </div>
   );

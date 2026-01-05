@@ -6,43 +6,43 @@ const projects = [
     title: "Site de gestion de Pokémon",
     year: "2025",
     description:
-      "Développement d’un site fullstack avec React.js et Node.js pour gérer une base de données Pokémon. UI conçue sur Figma, interactions dynamiques, hébergement GitLab.",
+      "Conception et développement d’une application fullstack permettant la gestion et la visualisation de données, avec une attention portée à l’UX, aux interactions dynamiques et au déploiement continu.",
     stack: ["React.js", "Node.js", "Figma", "GitLab"],
   },
   {
     title: "Plateforme de suggestions de recettes",
     year: "2024",
     description:
-      "Projet Angular pour suggérer des recettes selon les ingrédients disponibles. Front dynamique, logique de filtrage avancée.",
-    stack: ["Angular", "GitLab", "Typescript"],
+      "Projet Angular afin de proposer des recommandations pertinentes côté utilisateur..",
+    stack: ["Angular", "GitLab", "Typescript", "API Rest"],
   },
   {
     title: "Projet DevOps e-commerce",
     year: "2024",
     description:
-      "Implémentation d’une CI/CD avec GitLab, déploiement sur AWS, dockerisation et surveillance d’un site e-commerce.",
-    stack: ["GitLab CI", "AWS", "Docker"],
+      "Mise en place d’une chaîne CI/CD complète pour un site e-commerce, incluant la dockerisation, le déploiement sur AWS et la supervision, dans une logique de fiabilité et d’automatisation.",
+    stack: ["GitLab CI", "AWS", "Docker", "Terraform"],
   },
   {
     title: "Application solidaire pour visites aux malades",
     year: "2025 – en cours",
     description:
-      "Projet bénévole développé sous Flutter visant à organiser des visites à domicile pour les personnes malades. Travail sur l’architecture mobile, l’authentification, les redirections vers l'app",
+      "Développement d’une application mobile à vocation sociale visant à faciliter l’organisation de visites à domicile, avec un travail sur l’architecture applicative, l’authentification et la communication utilisateur.",
     stack: ["Flutter", "Supabase", "Dart", "SMTP Server"],
   },
   {
     title: "Reconstruction d'images 3D en parcours recherche",
     year: "2024 - 2025",
     description:
-      "Initialisation au parcours recherche autour de la reconstruction 3D par des méthodes basées IA Superpoint/Superglue, Python et OpenCV. Réalisé dans le cadre du parcours recherche à EPITA.",
+      "Projet de recherche autour de la reconstruction d’images 3D par des méthodes basées sur l’IA, mené dans un cadre académique, mettant en œuvre des algorithmes de deep learning et de traitement d’images.",
     stack: ["Python", "OpenCV"],
   },
   {
     title: "Summer School – Ajman University (Émirats)",
     year: "2024",
     description:
-      "Participation à une summer school en IA & cybersécurité à Ajman, avec des projets collaboratifs internationaux et ateliers techniques.",
-    stack: ["AI", "Deep learning", "Machine learning","Collaboration internationale"],
+      "Participation à une summer school internationale en IA et cybersécurité, avec enseignement, travaux dirigés, évaluations et projets réalisés intégralement en anglais, dans un contexte collaboratif et technique.",
+    stack: ["AI", "Deep learning", "Machine learning","Collaboration internationale", "Enseignement technique en anglais"],
   },
 ];
 
@@ -64,7 +64,7 @@ const Projects = () => {
           </div>
         ))}
         <p className="more-projects">
-  ...et de nombreux autres projets réalisés en autonomie, en équipe ou dans le cadre de mes études.
+  ...…ainsi que de nombreux autres projets menés en autonomie ou en collaboration, dans un cadre académique ou personnel.
   </p>
       </div>
     </section>
